@@ -1,0 +1,344 @@
+.navbar {
+    background-color: black;
+    border-bottom: gold solid 5px;
+    width: 100%;
+    margin-right: 0px;
+}
+.navbar-brand {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: xx-large;
+}
+.nav-link {
+    color:rgb(237, 220, 125) !important;
+    font-family: 'Cinzel', serif;
+}
+/* Current Month */
+#month, #month-2, #month-3 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: rgb(237, 220, 125);
+    font-family: 'Cinzel', serif;
+}
+/* Calendar */
+#calendar, #calendar-month-2, #calendar-month-3 {
+    margin: 25px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap:1px;
+    height: 100%;
+}
+/* Individual Days on Calendar */
+.day {
+    height: 100px;
+}
+/* Names of Days at top of Calendar */
+#week, #week-month-2, #week-month-3 {
+    font-size: larger;
+    display: grid;
+    grid-template-rows: 1fr;
+    text-align: center;
+    word-spacing: 75px;
+    font-family: 'Cinzel', serif;
+    color: rgb(237, 220, 125);
+}
+/* Styling for Past, Present, Future on calendar.html */
+
+.past {
+    background-color: grey;
+}
+.present {
+    background-color: rgb(237, 220, 125);
+}
+.future {
+    background-color:green;
+}
+/* Modal on calendar.html */
+
+@media (min-width: 768px) {
+    .modal-xl {
+    width: 90%;
+    max-width:1200px;
+    }
+}
+.modal-content {
+    background-color: rgb(148, 140, 94);
+}
+
+.ml-auto {
+    font-family: 'Cinzel', serif;
+    color: rgb(237, 220, 125);
+    font-size: x-large;
+}
+
+.modal-title {
+    font-family: 'Cinzel', serif;
+    color: rgb(237, 220, 125);
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* Cards on favorites.html */
+#fav-food, #fav-cocktail {
+    margin: 50px;
+    margin-top: 50px;
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px;
+    height: 85%;
+    width: 25%;
+    padding: 10px;
+    box-shadow: 5px;
+    background-color: rgb(148, 140, 94);
+    
+}
+
+/* Cards on Index.html */
+.index-card {
+    margin: 50px;
+    margin-top: 50px;
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px;
+    height: 85%;
+    width: 25%;
+    padding: 10px;
+    box-shadow: 5px;
+    background-color: rgb(237, 220, 125);
+}
+
+
+.card-img-top {
+    height:40%;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    border: black 5px inset;
+}
+.card-img-top-1 {
+    height:50%;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    border: black 5px inset;
+}
+
+.card-title {
+    text-align: center;
+    font-size: large;
+    font-family: 'Cinzel', serif;
+    color:black;
+}
+.card-body {
+    font-family: 'Rancho', cursive;
+    font-size: x-large;
+}
+
+.body {
+    background-image: url('./blackngold.jpg');
+    background-size: auto;
+    background-position: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Cinzel', serif;
+    color: rgb(237, 220, 125);
+
+}
+
+/* For Food Search Recipes Page */
+#search-food {
+    margin: 25px;
+    margin-top: 50px;
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px;
+    height: 85%;
+    width: 750px !important;
+    background-color: rgb(148, 140, 94);
+    float: left;
+
+}
+
+#search-cocktail {
+    margin: 25px;
+    margin-top: 50px;
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px;
+    height: 85%;
+    width: 650px !important;
+    background-color: rgb(148, 140, 94);
+    float: right;
+}
+
+
+.form-check {
+    margin-left: 25px;
+}
+.input-group{
+    padding: 5px;
+}
+h1 {
+    color:rgb(237, 220, 125) !important; 
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: x-large;
+    
+}
+h2 {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: x-large;
+    margin-left: 25px;
+    text-align: center;
+    
+}
+h3 {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: large;
+}
+.results {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.input-group {
+    margin-left: 25px
+}
+.form-check-label {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: x-large;
+}
+.recipe-search-card-ingredients-ol {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Rancho', cursive;
+    font-size: large;
+}
+.recipe-search-card-health-ul {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Rancho', cursive;
+    font-size: large;
+}
+.recipe-search-card-health-ul-title {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: large;
+}
+.recipe-search-card-servings {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Rancho', cursive;
+    font-size: large;
+}
+.recipe-search-card-button {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: xx-large;
+    background-color: white;
+}
+.recipe-search-card-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+.recipe-search-card-favorites-text {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: large;
+}
+.recipe-search-card-favorites-img {
+    background-color:rgb(237, 220, 125) !important; 
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+/* For Cocktail Recipe Search */
+
+.cocktail-search-card-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    
+}
+.cocktail-search-card-name {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    font-size: xx-large;
+    
+}
+.cocktail-search-card-ingredients-ol {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Rancho', cursive;
+    font-size: large;
+}
+.cocktail-search-card-recipe {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Rancho', cursive;
+    font-size: large;
+}
+.cocktail-search-card-favorites-text {
+    color:rgb(237, 220, 125) !important; 
+    font-family: 'Rancho', cursive;
+    font-size: large;
+}
+.cocktail-search-card-favorites-img {
+    background-color:rgb(237, 220, 125) !important; 
+    border: rgb(237, 220, 125) 3px groove;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+/* For Scheduling Buttons on Search Recipe Page */
+
+.month-button {
+    background-color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: medium;
+    margin-left: 25px;
+
+}
+.day-button {
+    background-color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: medium;
+    margin-left: 25x;
+}
+.schedule {
+    background-color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: medium;
+    margin-left: 25px;
+}
+.btn {
+    background-color:rgb(237, 220, 125) !important; 
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: medium;
+    
+    
+}
+#random-cocktail {
+    margin-left: 25px;
+}
+
+.container {
+    width: 100% !important;
+}
