@@ -8,7 +8,7 @@ Perfect for busy mothers and cooking enthusiests.
 *(Note: uses Local Storage to save info)*
 (*Note: the API that searches the recipes has a limit and how many searches can be done per minute. If it's not working, just wait a bit)*
 
-[Click Here to Visit the Website](https://briangearty.github.io/Golden-Child-Meal-Planner/)
+[Click Here to Visit the Website](https://kilometersdodecahedron.github.io/Golden-Child-Meal-Planner/)
 
 When you first arrive at the site, you'll be greeted with a landing page that covers the features and benefits of the GCMP
 ![Landing Page Info](./RM_Srceenshots/1landing-cards.png)
